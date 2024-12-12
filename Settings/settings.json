@@ -1,0 +1,29 @@
+{
+    "host": "localhost",
+    "user": "root",
+    "password": "",
+
+    "tables": {
+            "tickers": [["ID", "VARCHAR(255)", "NOT NULL", ","],
+                        ["TICKER", "VARCHAR(255)", "NOT NULL", ","],
+                        ["COUNTRY", "VARCHAR(255)", "NOT NULL", ","],
+                        ["BETA", "FLOAT", "", ","],
+                        ["EXCHANGE", "VARCHAR(255)", "NOT NULL", ","],
+                        ["TYPE", "VARCHAR(255)", "", ","],
+                        ["ISIN", "VARCHAR(255)", "", ","],
+                        ["CREATED_AT", "VARCHAR(255)", "", ","],
+                        ["UPDATED_AT", "VARCHAR(255)", "", ","],
+                        ["DELISTED", "VARCHAR(255)", "", ","],
+                        ["LEI", "VARCHAR(255)", "", ","],
+                        ["SECTOR", "VARCHAR(255)", "", ","],
+                        ["INDUSTRY", "VARCHAR(255)", "", ","]],
+
+            "data":    [["ID", "VARCHAR(255)", "NOT NULL", "," ],
+                        ["DATE", "DATE", "NOT NULL", ","],
+                        ["CLOSE", "FLOAT", "", ","],
+                        ["OPEN", "FLOAT", "", ","],
+                        ["ADJ_CLOSE", "FLOAT", "", ","],
+                        ["VOLUME", "FLOAT", "", ","],
+                        ["INSERTED_AT", "VARCHAR(255)", "", ","]]
+            }
+}
